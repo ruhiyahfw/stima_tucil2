@@ -1,7 +1,7 @@
 # Tugas Kecil 2 IF2211 Strategi Algoritma
 ## Penyusunan Rencana Kuliah dengan *Topological Sort* (Penerapan *Decrease and Conquer*)
 ### Deskripsi Singkat
-Program ini dibuat untuk menyelesaikan persoalan penyusunan rencana kuliah dengan *topological sort*. Algoritma *topological sort* dalam program ini didasarkan pada pendekatan *decrease and conquer*. Program akan menerima daftar mata kuliah beserta *pre-requisite*-nya kemudian akan menghasilkan mata kuliah apa saja yang perlu diambil di tiap semester. 
+Program ini dibuat untuk menyelesaikan persoalan penyusunan rencana kuliah dengan *topological sort*. Algoritma *topological sort* dalam program ini didasarkan pada pendekatan *decrease and conquer*. Program akan menerima daftar mata kuliah beserta *pre-requisite*-nya kemudian akan menghasilkan mata kuliah apa saja yang perlu diambil di tiap semester. Dalam program ini rencana kuliah akan disimpan ke dalam adjacency list dengan representasi multilist. Pembacaan file txt menggunakan ADT mesin karakter.
 ### *Requirement* dan Instalasi
 Program ini dibuat dengan menggunakan bahasa pemrograman C. Oleh karena itu pengguna perlu menginstall kompilator bahasa C terlebih dahulu
 ### Struktur Directory

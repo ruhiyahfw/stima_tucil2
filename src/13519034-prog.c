@@ -16,8 +16,8 @@ int main(){
     printf("Masukkan directory file matkul (misalnya ../test/tes1.txt): \n");
     scanf("%s",namafile);
     START(namafile);
-    CreateList(&data);
-    bacaTeks(&data);
+    CreateList(&data); // membuat graf yang berupa adjacency list
+    bacaTeks(&data); // menyimpan isi file txt ke dalam bentuk adjacency list representasi multilist
 
     // mencari susunan matkul yang harus diambil per semester
     int banymatkul = getBanyakMatkul(data);
@@ -35,7 +35,7 @@ int main(){
             P = Next(P);
         }
         jawaban.diambil[sem].length = i;
-        // menghapus node yang prereq-nya sudah dicatat
+        // menghapus node yang sudah dicatat ke jawaban serta menghapus busur keluar dari node tersebut.
         for (int k=0; k<i; k++){
             P = Search(data, jawaban.diambil[sem].matakuliah[k]);
             hapusSemuaPrereq(&data,P->info.nama);
