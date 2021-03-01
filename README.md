@@ -11,12 +11,14 @@ __test__ berisi data uji
 __doc__ berisi laporan tugas kecil
 ### Cara Menggunakan Program
 1. Unduh repository ini
-2. Buka command prompt, masuk ke directory tempat penyimpanan repository ini
-3. Masuk ke folder src
-4. Masukkan perintah: __gcc -o ../bin/prog 13519034-prog.c 13519034-katamatkul.c 13519034-mesinkar.c__
-5. Pindah directory ke folder bin dengan cara memasukkan perintah cd../bin
-6. Masukkan perintah: __prog__ <br/>
-7. Masukkan alamat directory file soal yang akan diselesaikan, misalnya : __../test/tes1.txt__
+2. Buka command prompt, masuk ke directory tempat penyimpanan repository ini<br/>
+3. Masuk ke folder bin
+4. Masukkan perintah: __./prog__ <br/>
+5. Masukkan alamat directory file soal yang akan diselesaikan, misalnya : __../test/tes1.txt__  <br/>
+Jika ingin men-compile terlebih dahulu terlebih dahulu maka sebelum masuk ke folder bin (langkah 3) perlu dilakukan: <br/>
+1. Masuk ke folder src
+2. Masukkan perintah: __gcc -o ../bin/prog 13519034-prog.c 13519034-katamatkul.c 13519034-mesinkar.c__ 
+3. Pindah directory ke folder bin dengan cara memasukkan perintah cd../bin
 ### Author
 * __RUHIYAH FARADISHI WIDIAPUTRI__
 * 13519034
