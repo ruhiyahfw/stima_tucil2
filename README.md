@@ -16,9 +16,9 @@ __doc__ berisi laporan tugas kecil
 4. Masukkan perintah: __./prog__ <br/>
 5. Masukkan alamat directory file soal yang akan diselesaikan, misalnya : __../test/tes1.txt__  <br/>
 Jika ingin men-compile terlebih dahulu terlebih dahulu maka sebelum masuk ke folder bin (langkah 3) perlu dilakukan: <br/>
-1. Masuk ke folder src
-2. Masukkan perintah: __gcc -o ../bin/prog 13519034-prog.c 13519034-katamatkul.c 13519034-mesinkar.c__ 
-3. Pindah directory ke folder bin dengan cara memasukkan perintah cd../bin
+* Masuk ke folder src
+* Masukkan perintah: __gcc -o ../bin/prog 13519034-prog.c 13519034-katamatkul.c 13519034-mesinkar.c__ 
+* Pindah directory ke folder bin dengan cara memasukkan perintah cd../bin
 ### Author
 * __RUHIYAH FARADISHI WIDIAPUTRI__
 * 13519034
